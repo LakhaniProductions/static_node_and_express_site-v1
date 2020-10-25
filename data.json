@@ -1,0 +1,51 @@
+{
+    "data":{
+        "projects": [
+            {
+                "id":0,
+                "project_name": "Random Quote Generator",
+                "description": "Use JavaScript to display a random quote.",
+                "technologies": "Javascript",
+                "live_link":"",
+                "github_link":"",
+                "image_urls":"https://placehold.it/550x550"
+            },
+            {
+                "id":1,
+                "project_name": "List Paginatin and Filtering",
+                "description": "Use JavaScript to divide a long list into a series of \"pages\".",
+                "technologies": "Javascript",
+                "live_link":"",
+                "github_link":"",
+                "image_urls":"https://placehold.it/550x550"
+            },
+            {
+                "id":2,
+                "project_name": "Interactive Form",
+                "description": "Use JavaScript to create an engaging, interactive, and easy to use form",
+                "technologies": "Javascript",
+                "live_link":"",
+                "github_link":"",
+                "image_urls":"https://placehold.it/550x550"
+            },
+            {
+                "id":3,
+                "project_name": "Phrase Guessing Game",
+                "description": "Use JavaScript and Object Oriented Programing to create a guessing game",
+                "technologies": "Javascript",
+                "live_link":"",
+                "github_link":"",
+                "image_urls":"https://placehold.it/550x550"
+            },
+            {
+                "id":4,
+                "project_name": "Public API Requests",
+                "description": "Use JavaScript and Object Oriented Programing to create a guessing game",
+                "technologies": "Javascript",
+                "live_link":"",
+                "github_link":"",
+                "image_urls":"https://placehold.it/550x550"
+            }
+        ]
+    }
+}
