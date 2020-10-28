@@ -4,47 +4,61 @@
             {
                 "id":0,
                 "project_name": "Random Quote Generator",
-                "description": "Use JavaScript to display a random quote.",
-                "technologies": "Javascript",
+                "description": "A small app that utilizies arrays, objects, and functions. The random quote generator cycles through an array of obejcts to display random quotes to the DOM every six seconds or with the press of a button.",
+                "technologies": ["Javascript"],
                 "live_link":"",
                 "github_link":"",
-                "image_urls":"https://placehold.it/550x550"
+                "image_urls":[
+                    "static/img/quotethumbnail.jpg",
+                    "static/img/quote1.jpg"
+                ]
             },
             {
                 "id":1,
-                "project_name": "List Paginatin and Filtering",
-                "description": "Use JavaScript to divide a long list into a series of \"pages\".",
-                "technologies": "Javascript",
+                "project_name": "List Pagination and Filtering",
+                "description": "A pagination app that dyanmically creates pagination links based on the number of students in a list. It displays information about 10 students per page and allows the user to filter the list via a search bar.  ",
+                "technologies": ["Javascript"],
                 "live_link":"",
                 "github_link":"",
-                "image_urls":"https://placehold.it/550x550"
+                "image_urls":[
+                    "static/img/paginationthumbnail.jpg"
+                ]
             },
             {
                 "id":2,
                 "project_name": "Interactive Form",
-                "description": "Use JavaScript to create an engaging, interactive, and easy to use form",
+                "description": "An engaging, interactive, and easy to use form with custom validation checks and error messages.",
                 "technologies": "Javascript",
                 "live_link":"",
                 "github_link":"",
-                "image_urls":"https://placehold.it/550x550"
+                "image_urls":[
+                    "static/img/formthumbnail.jpg"
+                ]
             },
             {
                 "id":3,
                 "project_name": "Phrase Guessing Game",
-                "description": "Use JavaScript and Object Oriented Programing to create a guessing game",
-                "technologies": "Javascript",
+                "description": "A browser-based, phrase guessing game which utilizes JavaScript and Object Oriented Programing. The user can either click on an on-screen keyboard or type letters on their own keyboard to guess letters in the given phrase.",
+                "technologies": ["Javascript"],
                 "live_link":"",
                 "github_link":"",
-                "image_urls":"https://placehold.it/550x550"
+                "image_urls":[
+                    "static/img/phrasethumbnail.jpg"
+                ]
             },
             {
                 "id":4,
                 "project_name": "Public API Requests",
-                "description": "Use JavaScript and Object Oriented Programing to create a guessing game",
-                "technologies": "Javascript",
+                "description": "A client side app that uses JavaScript and AJAX to make an employee directory by making a request from a public API.",
+                "technologies": [
+                    "Javascript",
+                    "AJAX"
+                ],
                 "live_link":"",
                 "github_link":"",
-                "image_urls":"https://placehold.it/550x550"
+                "image_urls":[
+                    "static/img/apithumbnail.jpg"
+                ]
             }
         ]
     }
