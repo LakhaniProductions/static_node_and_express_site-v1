@@ -4,7 +4,7 @@ html(class="no-js" lang="en" dir="ltr")
     meta(charset='utf-8')
     meta(http-equiv='x-ua-compatible', content='ie=edge')
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
-    title Portfolio Site
+    title Full Stack JavaScript Portfolio Site
     link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
     link(rel='stylesheet', href='/static/css/foundation.css')
     link(rel='stylesheet', href='/static/css/style.css')
@@ -14,15 +14,15 @@ html(class="no-js" lang="en" dir="ltr")
         block sidebar
           br
           .cell.shrink
-            img.thumbnail(src='https://placehold.it/550x350')
+            img.thumbnail-new(src='/static/img/LP_LogoNew.png')
           .cell.auto
 
             h5 Adnan Lakhani
 
             p.text-light
-              | Hello, my name is Adnan Lakhani, and I love to create beautiful websites and applications. Some of the things I am passionate about are illustrations (drawing and digital painting), web development (I'm currently in training to be a Full Stack JavaScript developer), and graphic design (I especially enjoy creating logos). <br><br>If I am away from the computer, it is because I am out exploring the world. If you can't find me out there, I am probably grilling up something delicious. Some go as far as to call me a grill master (my wife sometimes lies to me).  
+              | Hello, my name is Adnan Lakhani, and I love to create beautiful websites and applications. Some of the things I am passionate about are web development (I'm currently in training to be a Full Stack JavaScript developer) and graphic design (I especially enjoy creating logos). <br><br>If I am away from the computer, it is because I am out exploring the world. If you can't find me out there, I am probably grilling up something delicious. Some go as far as to call me a grill master (my wife sometimes lies to me).  
 
-            a(href='') Learn More →
+            a(href='/about') Learn More →
 
     .off-canvas-content(data-off-canvas-content='')
       .title-bar.hide-for-large
@@ -32,7 +32,6 @@ html(class="no-js" lang="en" dir="ltr")
           span.title-bar-title Adnan Lakhani
       block content
         
-
       
   script(src='/static/js/vendor/jquery.js')
   script(src='/static/js/vendor/what-input.js')

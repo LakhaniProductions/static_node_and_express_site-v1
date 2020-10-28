@@ -4,13 +4,15 @@
             {
                 "id":0,
                 "project_name": "Random Quote Generator",
-                "description": "A small app that utilizies arrays, objects, and functions. The random quote generator cycles through an array of obejcts to display random quotes to the DOM every six seconds or with the press of a button.",
+                "description": "A small app that utilizies arrays, objects, and functions. The random quote generator cycles through an array of obejcts to display random quotes to the DOM every six seconds or with the click of a button.",
                 "technologies": ["Javascript"],
-                "live_link":"",
-                "github_link":"",
+                "live_link":"https://lakhaniproductions.github.io/techdegree-quote-project/",
+                "github_link":"https://github.com/LakhaniProductions/techdegree-quote-project",
                 "image_urls":[
-                    "static/img/quotethumbnail.jpg",
-                    "static/img/quote1.jpg"
+                    "/static/img/quotethumbnail.jpg",
+                    "/static/img/quote1.jpg",
+                    "/static/img/quote2.jpg",
+                    "/static/img/quote3.jpg"
                 ]
             },
             {
@@ -18,21 +20,28 @@
                 "project_name": "List Pagination and Filtering",
                 "description": "A pagination app that dyanmically creates pagination links based on the number of students in a list. It displays information about 10 students per page and allows the user to filter the list via a search bar.  ",
                 "technologies": ["Javascript"],
-                "live_link":"",
-                "github_link":"",
+                "live_link":"https://lakhaniproductions.github.io/list_pagination_and_filtering-v1/",
+                "github_link":"https://github.com/LakhaniProductions/list_pagination_and_filtering-v1",
                 "image_urls":[
-                    "static/img/paginationthumbnail.jpg"
+                    "/static/img/paginationthumbnail.jpg",
+                    "/static/img/pagination1.jpg",
+                    "/static/img/pagination2.jpg",
+                    "/static/img/pagination3.jpg"
                 ]
             },
             {
                 "id":2,
                 "project_name": "Interactive Form",
-                "description": "An engaging, interactive, and easy to use form with custom validation checks and error messages.",
-                "technologies": "Javascript",
-                "live_link":"",
-                "github_link":"",
+                "description": "An engaging, interactive, and easy to use form with custom validation checks and error messages. The user's input and selections dictate which fields and options are enabled or shown.",
+                "technologies": ["Javascript"],
+                "live_link":"https://lakhaniproductions.github.io/interactive-form-v2/",
+                "github_link":"https://github.com/LakhaniProductions/interactive-form-v2",
                 "image_urls":[
-                    "static/img/formthumbnail.jpg"
+                    "/static/img/formthumbnail.jpg",
+                    "/static/img/form1.jpg",
+                    "/static/img/form2.jpg",
+                    "/static/img/form4.jpg",
+                    "/static/img/form3.jpg"
                 ]
             },
             {
@@ -40,24 +49,32 @@
                 "project_name": "Phrase Guessing Game",
                 "description": "A browser-based, phrase guessing game which utilizes JavaScript and Object Oriented Programing. The user can either click on an on-screen keyboard or type letters on their own keyboard to guess letters in the given phrase.",
                 "technologies": ["Javascript"],
-                "live_link":"",
-                "github_link":"",
+                "live_link":"https://lakhaniproductions.github.io/oop_game-v2/",
+                "github_link":"https://github.com/LakhaniProductions/oop_game-v2",
                 "image_urls":[
-                    "static/img/phrasethumbnail.jpg"
+                    "/static/img/phrasethumbnail.jpg",
+                    "/static/img/phrase1.jpg",
+                    "/static/img/phrase2.jpg",
+                    "/static/img/phrase3.jpg",
+                    "/static/img/phrase4.jpg"
                 ]
             },
             {
                 "id":4,
                 "project_name": "Public API Requests",
-                "description": "A client side app that uses JavaScript and AJAX to make an employee directory by making a request from a public API.",
+                "description": "A client side app that uses JavaScript and AJAX to make an employee directory by making a request from a public API. A search bar allows for filtering the employees. The user can click each employee to open a modal with additional information about the employee. ",
                 "technologies": [
                     "Javascript",
                     "AJAX"
                 ],
-                "live_link":"",
-                "github_link":"",
+                "live_link":"https://lakhaniproductions.github.io/public_api_request-v1/",
+                "github_link":"https://github.com/LakhaniProductions/public_api_request-v1",
                 "image_urls":[
-                    "static/img/apithumbnail.jpg"
+                    "/static/img/apithumbnail.jpg",
+                    "/static/img/api1.jpg",
+                    "/static/img/api2.jpg",
+                    "/static/img/api3.jpg",
+                    "/static/img/api4.jpg"
                 ]
             }
         ]
