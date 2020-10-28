@@ -7,9 +7,8 @@ const projects=data.projects;
 
 router.get('/', (req,res) => {
     res.render('index', {
-
-        id: projects[0].id,
-        title: projects[0].project_name
+        projects: projects,
+        title: projects.project_name
     });
 });
 
