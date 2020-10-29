@@ -22,8 +22,9 @@ app.use(projectRoutes);
 
 //New error constructor
 app.use((req,res,next) =>{
-    const err = new Error('Not Found');
+    const err = new Error();
     err.status=404;
+    err.message = 'Page not found'
     next(err);
 });
 
@@ -34,6 +35,8 @@ app.use((err,req,res,next)=>{
     if (err.status === 404) {
         res.render('page-not-found', err);
     } else {
+        err.message= 'Sorry, there\'s an error.'
+        res.status(err.status =500);
         res.render('error', err);
     }
    
